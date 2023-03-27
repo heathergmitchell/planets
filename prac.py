@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-	year = int(input("Enter a year: "))
+	year = 2000
 
 	if (year % 400 == 0) and (year % 100 == 0):
 		print("{0} is a leap year".format(year))
